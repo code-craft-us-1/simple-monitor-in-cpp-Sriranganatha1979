@@ -1,7 +1,7 @@
 #include "./monitor.h"
-#include "temperatureBodylimits.h"
-#include "spo2bodylimits.h"
-#include "pulseratebodylimits.h"
+#include "./temperatureBodylimits.h" 
+#include "./pulseratebodylimits.h"
+#include "./spo2bodylimits.h"
 
 #include "gtest/gtest.h"
 

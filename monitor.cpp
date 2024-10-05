@@ -2,10 +2,13 @@
 #include <thread>
 #include <chrono>
 #include <iostream>
-#include "temperatureBodylimits.h" // Include the header file for temperature body limits
-#include "pulseratebodylimits.h" // Include the header file for pulse rate body limits
-#include "spo2bodylimits.h" // Include the header file for spo2 body limits
-using std::cout, std::flush, std::this_thread::sleep_for, std::chrono::seconds;
+#include "./temperatureBodylimits.h" // Include the header file for temperature body limits
+#include "./pulseratebodylimits.h" // Include the header file for pulse rate body limits
+#include "./spo2bodylimits.h" // Include the header file for spo2 body limits
+using std::cout;
+using std::flush;
+using std::this_thread::sleep_for;
+using std::chrono::seconds;
 
 static void measureVitals() {
     for (int i = 0; i < 1; i++) {
