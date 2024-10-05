@@ -1,0 +1,7 @@
+#ifndef TEMPERATUREBODYLIMITS_H_
+#define TEMPERATUREBODYLIMITS_H_
+
+constexpr float MIN_TEMPERATURE = 95.0f;
+constexpr float MAX_TEMPERATURE = 102.0f;
+
+#endif  // TEMPERATUREBODYLIMITS_H_

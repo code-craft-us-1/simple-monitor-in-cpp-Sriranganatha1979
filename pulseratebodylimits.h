@@ -1,0 +1,7 @@
+#ifndef PULSERATEBODYLIMITS_H_
+#define PULSERATEBODYLIMITS_H_
+
+const float MIN_PULSE_RATE = 60.0f;
+const float MAX_PULSE_RATE = 100.0f;
+
+#endif  // PULSERATEBODYLIMITS_H_
